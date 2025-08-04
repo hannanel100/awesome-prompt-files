@@ -6,6 +6,8 @@
 
 - [Official Resources](#official-resources)
 - [Git Workflow Prompts](#git-workflow-prompts)
+- [Code Quality & Analysis Prompts](#code-quality--analysis-prompts)
+- [Testing & Documentation Prompts](#testing--documentation-prompts)
 - [Tools & Utilities](#tools--utilities)
 - [Community](#community)
 - [Contributing](#contributing)
@@ -41,6 +43,56 @@ The `pr.prompt.md` file streamlines PR creation by:
 - Extracting commit messages from the current branch
 - Generating well-formatted markdown PR descriptions
 - Automatically identifying the target main/master branch
+
+## Code Quality & Analysis Prompts
+
+These prompts help improve code quality, maintainability, and security:
+
+- [refactor.prompt.md](.github/prompts/refactor.prompt.md) - Analyze code and suggest refactoring improvements following SOLID principles
+- [security-audit.prompt.md](.github/prompts/security-audit.prompt.md) - Comprehensive security audit to identify vulnerabilities and suggest improvements
+- [debug-assistant.prompt.md](.github/prompts/debug-assistant.prompt.md) - Systematic debugging with step-by-step troubleshooting approach
+
+### Code Refactoring Assistant
+The `refactor.prompt.md` file helps improve code quality by:
+- Analyzing code structure and identifying improvement opportunities
+- Checking compliance with SOLID principles
+- Suggesting better naming, structure, and design patterns
+- Prioritizing refactoring efforts by impact and complexity
+
+### Security Audit Tool
+The `security-audit.prompt.md` file provides comprehensive security analysis by:
+- Identifying common vulnerabilities (OWASP Top 10)
+- Analyzing input validation, authentication, and data protection
+- Providing actionable security recommendations
+- Creating implementation roadmaps for security improvements
+
+### Debug Assistant
+The `debug-assistant.prompt.md` file streamlines debugging by:
+- Systematic error analysis and root cause identification
+- Step-by-step troubleshooting methodology
+- Solution development with preventive measures
+- Testing strategies to verify fixes
+
+## Testing & Documentation Prompts
+
+These prompts enhance code testing coverage and documentation quality:
+
+- [unit-test.prompt.md](.github/prompts/unit-test.prompt.md) - Generate comprehensive unit tests with edge cases and proper test structure
+- [docstring.prompt.md](.github/prompts/docstring.prompt.md) - Create comprehensive docstrings and documentation for functions and classes
+
+### Unit Test Generator
+The `unit-test.prompt.md` file creates thorough test coverage by:
+- Generating tests for happy path, edge cases, and error conditions
+- Following testing best practices and framework conventions
+- Creating realistic test data and proper mocking strategies
+- Ensuring tests are independent and maintainable
+
+### Documentation Generator
+The `docstring.prompt.md` file improves code documentation by:
+- Creating comprehensive docstrings following language conventions
+- Documenting parameters, return values, and exceptions
+- Providing usage examples and implementation notes
+- Maintaining consistency across the codebase
 
 ## Tools & Utilities
 
